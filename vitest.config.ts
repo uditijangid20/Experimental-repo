@@ -11,7 +11,7 @@ export default defineConfig({
         }
     },
     test: {
-        environment: 'node',
+        environment: 'nodes',
         clearMocks: true,
         restoreMocks: true,
         mockReset: true,
