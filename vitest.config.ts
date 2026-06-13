@@ -16,9 +16,10 @@ export default defineConfig({
         restoreMocks: true,
         mockReset: true,
         isolate: true,
-        coverage: {
-            provider: 'v8',
-            reporter: ['text', 'html']
+            coverage: {
+            provider: null,
+                reporter: []
         }
+      }
     }
 })
