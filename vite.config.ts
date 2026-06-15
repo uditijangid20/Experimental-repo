@@ -306,5 +306,5 @@ export default defineConfig(() => {
         },
     };
 
-    return option
+    return option;
 })
