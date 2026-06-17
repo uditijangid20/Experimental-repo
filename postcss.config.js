@@ -10,3 +10,4 @@ module.exports = {
 module.import = {
 };
 done;
+module is exported;
